@@ -1,6 +1,24 @@
 'use client';
 
 export default function ProjectsPage() {
+  const [activeFilter, setActiveFilter] = React.useState('all');
+
+  const handleFilterClick = (filter: string) => {
+    setActiveFilter(filter);
+    
+    // Filter the projects based on the selected category
+    const projectItems = document.querySelectorAll('.project-item');
+    
+    projectItems.forEach((item) => {
+      const element = item as HTMLElement;
+      if (filter === 'all' || item.getAttribute('data-category') === filter) {
+        element.style.display = 'block';
+      } else {
+        element.style.display = 'none';
+      }
+    });
+  };
+
   return (
     <div className="projects-page">
       <section className="projects-hero">
@@ -12,11 +30,29 @@ export default function ProjectsPage() {
 
       <section className="project-filters">
         <div className="container">
+          <h1>My Projects</h1>
+          <p className="lead">A showcase of my work and contributions</p>
           <div className="filter-buttons">
-            <button className="filter-btn active" data-filter="all">All</button>
-            <button className="filter-btn" data-filter="web">Web</button>
-            <button className="filter-btn" data-filter="script">Script</button>
-            <button className="filter-btn" data-filter="team">Team</button>
+            <button 
+              className={`filter-btn ${activeFilter === 'all' ? 'active' : ''}`} 
+              data-filter="all"
+              onClick={() => handleFilterClick('all')}
+            >All</button>
+            <button 
+              className={`filter-btn ${activeFilter === 'web' ? 'active' : ''}`} 
+              data-filter="web"
+              onClick={() => handleFilterClick('web')}
+            >Web</button>
+            <button 
+              className={`filter-btn ${activeFilter === 'script' ? 'active' : ''}`} 
+              data-filter="script"
+              onClick={() => handleFilterClick('script')}
+            >Script</button>
+            <button 
+              className={`filter-btn ${activeFilter === 'team' ? 'active' : ''}`} 
+              data-filter="team"
+              onClick={() => handleFilterClick('team')}
+            >Team</button>
           </div>
         </div>
       </section>
