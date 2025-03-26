@@ -516,11 +516,19 @@ input:checked + .slider:before {
 }
 
 .tech-tag {
-  background-color: var(--bg-color);
+  background-color: var(--secondary-color);
   padding: 0.25rem 0.75rem;
   border-radius: 1rem;
   font-size: 0.8rem;
-  color: var(--secondary-text);
+  color: var(--bg-color);
+  font-weight: 600;
+  border: 2px solid var(--secondary-color);
+  transition: all 0.2s ease;
+}
+
+.tech-tag:hover {
+  transform: scale(1.05);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .project-links {
