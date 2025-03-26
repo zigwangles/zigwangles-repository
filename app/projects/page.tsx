@@ -15,8 +15,8 @@ export default function ProjectsPage() {
           <div className="filter-buttons">
             <button className="filter-btn active" data-filter="all">All</button>
             <button className="filter-btn" data-filter="web">Web</button>
-            <button className="filter-btn" data-filter="mobile">Mobile</button>
-            <button className="filter-btn" data-filter="backend">Backend</button>
+            <button className="filter-btn" data-filter="script">Script</button>
+            <button className="filter-btn" data-filter="team">Team</button>
           </div>
         </div>
       </section>
@@ -24,130 +24,65 @@ export default function ProjectsPage() {
       <section className="projects-grid-container">
         <div className="container">
           <div className="projects-grid">
-            <div className="project-item" data-category="web" id="project1">
+            <div className="project-item" data-category="web" id="pirating">
               <div className="project-card">
                 <div className="project-image">
                   <i className="fas fa-globe"></i>
                 </div>
                 <div className="project-details">
-                  <h3>Project Alpha</h3>
-                  <p>A full-stack web application with real-time features using React, Node.js, and Socket.io.</p>
+                  <h3>pirating.xyz</h3>
+                  <p>Open source pirating website providing access to digital content.</p>
                   <div className="tech-tags">
-                    <span className="tech-tag">React</span>
-                    <span className="tech-tag">Node.js</span>
-                    <span className="tech-tag">MongoDB</span>
-                    <span className="tech-tag">Socket.io</span>
+                    <span className="tech-tag">HTML</span>
+                    <span className="tech-tag">JavaScript</span>
+                    <span className="tech-tag">CSS</span>
+                    <span className="tech-tag">Storj</span>
                   </div>
                   <div className="project-links">
-                    <a href="#" className="btn btn-small">View Demo</a>
-                    <a href="#" className="btn btn-outline">Source Code</a>
+                    <a href="https://pirating.xyz" className="btn btn-small">View Site</a>
+                    <a href="https://github.com/yourusername/pirating.xyz" className="btn btn-outline">Source Code</a>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div className="project-item" data-category="mobile" id="project2">
+            <div className="project-item" data-category="team" id="aiio">
               <div className="project-card">
                 <div className="project-image">
-                  <i className="fas fa-mobile-alt"></i>
+                  <i className="fas fa-users"></i>
                 </div>
                 <div className="project-details">
-                  <h3>Project Beta</h3>
-                  <p>Cross-platform mobile application built with React Native that helps users track their daily habits.</p>
+                  <h3>aiio.dev</h3>
+                  <p>A development team project (not started yet) focused on innovative solutions.</p>
                   <div className="tech-tags">
-                    <span className="tech-tag">React Native</span>
-                    <span className="tech-tag">Firebase</span>
-                    <span className="tech-tag">Redux</span>
+                    <span className="tech-tag">TypeScript</span>
                   </div>
                   <div className="project-links">
-                    <a href="#" className="btn btn-small">View Demo</a>
-                    <a href="#" className="btn btn-outline">Source Code</a>
+                    <a href="https://aiio.dev" className="btn btn-small">View Site</a>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div className="project-item" data-category="backend" id="project3">
+            <div className="project-item" data-category="script" id="tokydl">
               <div className="project-card">
                 <div className="project-image">
-                  <i className="fas fa-server"></i>
+                  <i className="fas fa-headphones"></i>
                 </div>
                 <div className="project-details">
-                  <h3>Project Gamma</h3>
-                  <p>Scalable cloud-based data processing pipeline built with AWS Lambda, S3, and DynamoDB.</p>
+                  <h3>tokydl</h3>
+                  <p>Open source Tokybook python audiobook download script for easily downloading audiobooks.</p>
                   <div className="tech-tags">
-                    <span className="tech-tag">AWS</span>
-                    <span className="tech-tag">Node.js</span>
-                    <span className="tech-tag">DynamoDB</span>
-                    <span className="tech-tag">Serverless</span>
+                    <span className="tech-tag">Python</span>
+                    <span className="tech-tag">re</span>
+                    <span className="tech-tag">json5</span>
+                    <span className="tech-tag">requests</span>
+                    <span className="tech-tag">pathlib</span>
+                    <span className="tech-tag">tqdm</span>
                   </div>
                   <div className="project-links">
-                    <a href="#" className="btn btn-small">View Demo</a>
-                    <a href="#" className="btn btn-outline">Source Code</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="project-item" data-category="web">
-              <div className="project-card">
-                <div className="project-image">
-                  <i className="fas fa-paint-brush"></i>
-                </div>
-                <div className="project-details">
-                  <h3>Project Delta</h3>
-                  <p>Interactive dashboard for visualizing and analyzing complex datasets with React and D3.js.</p>
-                  <div className="tech-tags">
-                    <span className="tech-tag">React</span>
-                    <span className="tech-tag">D3.js</span>
-                    <span className="tech-tag">Styled Components</span>
-                  </div>
-                  <div className="project-links">
-                    <a href="#" className="btn btn-small">View Demo</a>
-                    <a href="#" className="btn btn-outline">Source Code</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="project-item" data-category="backend">
-              <div className="project-card">
-                <div className="project-image">
-                  <i className="fas fa-database"></i>
-                </div>
-                <div className="project-details">
-                  <h3>Project Epsilon</h3>
-                  <p>RESTful API service built with Express.js and MongoDB for a content management system.</p>
-                  <div className="tech-tags">
-                    <span className="tech-tag">Node.js</span>
-                    <span className="tech-tag">Express</span>
-                    <span className="tech-tag">MongoDB</span>
-                    <span className="tech-tag">JWT</span>
-                  </div>
-                  <div className="project-links">
-                    <a href="#" className="btn btn-small">View Demo</a>
-                    <a href="#" className="btn btn-outline">Source Code</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="project-item" data-category="mobile">
-              <div className="project-card">
-                <div className="project-image">
-                  <i className="fas fa-map-marker-alt"></i>
-                </div>
-                <div className="project-details">
-                  <h3>Project Zeta</h3>
-                  <p>Location-based mobile app that helps users discover local events and attractions.</p>
-                  <div className="tech-tags">
-                    <span className="tech-tag">Flutter</span>
-                    <span className="tech-tag">Firebase</span>
-                    <span className="tech-tag">Google Maps API</span>
-                  </div>
-                  <div className="project-links">
-                    <a href="#" className="btn btn-small">View Demo</a>
-                    <a href="#" className="btn btn-outline">Source Code</a>
+                    <a href="https://github.com/yourusername/tokydl" className="btn btn-small">View Demo</a>
+                    <a href="https://github.com/yourusername/tokydl" className="btn btn-outline">Source Code</a>
                   </div>
                 </div>
               </div>
@@ -158,3 +93,4 @@ export default function ProjectsPage() {
     </div>
   );
 }
+
