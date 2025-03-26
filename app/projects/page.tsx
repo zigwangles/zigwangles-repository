@@ -1,10 +1,15 @@
 'use client';
 
 export default function ProjectsPage() {
-  const [activeFilter, setActiveFilter] = React.useState('all');
-
+  // Handle filter click on the client side
   const handleFilterClick = (filter: string) => {
-    setActiveFilter(filter);
+    // Remove active class from all buttons
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+      btn.classList.remove('active');
+    });
+    
+    // Add active class to clicked button
+    document.querySelector(`[data-filter="${filter}"]`)?.classList.add('active');
     
     // Filter the projects based on the selected category
     const projectItems = document.querySelectorAll('.project-item');
@@ -30,26 +35,24 @@ export default function ProjectsPage() {
 
       <section className="project-filters">
         <div className="container">
-          <h1>My Projects</h1>
-          <p className="lead">A showcase of my work and contributions</p>
           <div className="filter-buttons">
             <button 
-              className={`filter-btn ${activeFilter === 'all' ? 'active' : ''}`} 
+              className="filter-btn active" 
               data-filter="all"
               onClick={() => handleFilterClick('all')}
             >All</button>
             <button 
-              className={`filter-btn ${activeFilter === 'web' ? 'active' : ''}`} 
+              className="filter-btn" 
               data-filter="web"
               onClick={() => handleFilterClick('web')}
             >Web</button>
             <button 
-              className={`filter-btn ${activeFilter === 'script' ? 'active' : ''}`} 
+              className="filter-btn" 
               data-filter="script"
               onClick={() => handleFilterClick('script')}
             >Script</button>
             <button 
-              className={`filter-btn ${activeFilter === 'team' ? 'active' : ''}`} 
+              className="filter-btn" 
               data-filter="team"
               onClick={() => handleFilterClick('team')}
             >Team</button>
