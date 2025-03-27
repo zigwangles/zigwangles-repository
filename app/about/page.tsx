@@ -14,7 +14,7 @@ export default function AboutPage() {
             <div className="about-text">
               <h2>My Story</h2>
               <p>
-                Hello! I'm ZigWangles, a passionate software developer with a keen interest in
+                Hello! I'm zigwangles, a passionate software developer with a keen interest in
                 building elegant and efficient solutions to complex problems.
               </p>
               <p>
