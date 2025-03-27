@@ -28,8 +28,13 @@ export default function AboutPage() {
               </p>
             </div>
             <div className="about-image">
-              <div className="public/assets/images/profile.png">
-              </div>
+              <img 
+                src="/assets/images/profile.jpg" 
+                alt="Profile Image" 
+                className="rounded-image"
+                width="300"
+                height="300"
+              />
             </div>
           </div>
         </div>
