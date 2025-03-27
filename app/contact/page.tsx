@@ -56,28 +56,19 @@ export default function ContactPage() {
         <div className="container">
           <div className="contact-grid">
             <div className="contact-info">
-              <h2>Contact Information</h2>
-              <div className="info-item">
-                <i className="fas fa-envelope"></i>
-                <p>hello@zigwangles.com</p>
-              </div>
-              <div className="info-item">
-                <i className="fas fa-phone"></i>
-                <p>+1 (555) 123-4567</p>
-              </div>
-              <div className="info-item">
-                <i className="fas fa-map-marker-alt"></i>
-                <p>San Francisco, CA</p>
-              </div>
+              <h2>Connect With Me</h2>
               <div className="social-links">
-                <a href="#" aria-label="GitHub">
+                <a href="https://discord.gg/5Zsu5kubnp" aria-label="Discord" className="social-link-large">
+                  <i className="fab fa-discord"></i>
+                  <span>Discord</span>
+                </a>
+                <a href="https://tiktok.com/zigwangles" aria-label="TikTok" className="social-link-large">
+                  <i className="fab fa-tiktok"></i>
+                  <span>TikTok</span>
+                </a>
+                <a href="https://github.com/zigwangles" aria-label="GitHub" className="social-link-large">
                   <i className="fab fa-github"></i>
-                </a>
-                <a href="#" aria-label="LinkedIn">
-                  <i className="fab fa-linkedin"></i>
-                </a>
-                <a href="#" aria-label="Twitter">
-                  <i className="fab fa-twitter"></i>
+                  <span>GitHub</span>
                 </a>
               </div>
             </div>
