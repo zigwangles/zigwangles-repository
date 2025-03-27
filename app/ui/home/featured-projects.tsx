@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function FeaturedProjects() {
   return (
@@ -10,7 +11,13 @@ export default function FeaturedProjects() {
         <div className="projects-grid">
           <div className="project-card">
             <div className="project-image">
-              <i className="fas fa-users"></i>
+              <Image 
+                src="/assets/images/aiio.jpeg" 
+                alt="aiio.dev project" 
+                width={300} 
+                height={300}
+                className="project-img"
+              />
             </div>
             <h3>aiio.dev</h3>
             <p>A development team project focused on innovative solutions</p>
@@ -20,7 +27,13 @@ export default function FeaturedProjects() {
           </div>
           <div className="project-card">
             <div className="project-image">
-              <i className="fas fa-headphones"></i>
+              <Image 
+                src="/assets/images/tokydl.jpeg" 
+                alt="tokydl project" 
+                width={300} 
+                height={300}
+                className="project-img"
+              />
             </div>
             <h3>tokydl</h3>
             <p>Open source Tokybook python audiobook download script</p>
