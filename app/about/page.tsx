@@ -28,8 +28,7 @@ export default function AboutPage() {
               </p>
             </div>
             <div className="about-image">
-              <div className="image-placeholder">
-                <i className="fas fa-user-circle"></i>
+              <div className="public/assets/images/profile.JPG">
               </div>
             </div>
           </div>
