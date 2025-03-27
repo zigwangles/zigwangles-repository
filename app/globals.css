@@ -469,11 +469,20 @@ input:checked + .slider:before {
   align-items: center;
   justify-content: center;
   background-color: var(--secondary-bg);
+  overflow: hidden;
+  position: relative;
 }
 
 .project-image i {
   font-size: 4rem;
   color: var(--primary-color);
+}
+
+.project-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
 .project-card h3 {
