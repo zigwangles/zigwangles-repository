@@ -14,7 +14,7 @@ export default function FeaturedProjects() {
             </div>
             <h3>aiio.dev</h3>
             <p>A development team project focused on innovative solutions</p>
-            <Link href="/projects#aiio" className="btn btn-small">
+            <Link href="/projects#aiio" className="btn btn-view-site">
               Learn More
             </Link>
           </div>
@@ -24,7 +24,7 @@ export default function FeaturedProjects() {
             </div>
             <h3>tokydl</h3>
             <p>Open source Tokybook python audiobook download script</p>
-            <Link href="/projects#tokydl" className="btn btn-small">
+            <Link href="/projects#tokydl" className="btn btn-view-site">
               Learn More
             </Link>
           </div>
