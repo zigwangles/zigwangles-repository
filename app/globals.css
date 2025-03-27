@@ -144,12 +144,14 @@ p {
   color: white;
   font-weight: 600;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 2px solid var(--success-color);
 }
 
 .btn-view-site:hover {
   background-color: var(--accent-color);
   transform: translateY(-2px);
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  border-color: var(--accent-color);
 }
 
 .btn-outline {
