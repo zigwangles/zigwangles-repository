@@ -8,7 +8,7 @@ export default function Hero() {
       <div className="container">
         <div className="hero-content">
           <h1>
-            Hello, I'm <span className="highlight">ZigWangles</span>
+            Hello, I'm <span className="highlight">zigwangles</span>
           </h1>
           <h2>Software Developer & Problem Solver</h2>
           <p>Crafting elegant solutions through code</p>
