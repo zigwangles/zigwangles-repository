@@ -28,7 +28,7 @@ export default function AboutPage() {
               </p>
             </div>
             <div className="about-image">
-              <div className="public/assets/images/profile.JPG">
+              <div className="public/assets/images/profile.png">
               </div>
             </div>
           </div>
