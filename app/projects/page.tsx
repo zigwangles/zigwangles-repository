@@ -75,7 +75,7 @@ export default function ProjectsPage() {
                     <span className="tech-tag">TypeScript</span>
                   </div>
                   <div className="project-links">
-                    <a href="https://aiio.dev" className="btn btn-small">View Site</a>
+                    <a href="https://aiio.dev" className="btn btn-view-site">View Site</a>
                   </div>
                 </div>
               </div>
@@ -98,7 +98,7 @@ export default function ProjectsPage() {
                     <span className="tech-tag">tqdm</span>
                   </div>
                   <div className="project-links">
-                    <a href="https://github.com/yourusername/tokydl" className="btn btn-small">View Demo</a>
+                    <a href="https://github.com/yourusername/tokydl" className="btn btn-view-site">View Demo</a>
                     <a href="https://github.com/yourusername/tokydl" className="btn btn-outline">Source Code</a>
                   </div>
                 </div>
@@ -110,4 +110,3 @@ export default function ProjectsPage() {
     </div>
   );
 }
-
