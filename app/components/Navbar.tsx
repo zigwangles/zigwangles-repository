@@ -20,7 +20,7 @@ export default function Navbar() {
         <div className="logo">
           <h1>
             <Link href="/">
-              <span className="highlight">Zig</span>Wangles
+              <span className="highlight">zig</span>wangles
             </Link>
           </h1>
         </div>
