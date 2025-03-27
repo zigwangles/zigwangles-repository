@@ -71,9 +71,10 @@ export default function ProjectsPage() {
                   <Image 
                     src="/assets/images/aiio.jpeg" 
                     alt="aiio.dev project" 
-                    width={300} 
-                    height={300}
+                    width={600} 
+                    height={400}
                     className="project-img"
+                    priority
                   />
                 </div>
                 <div className="project-details">
@@ -95,9 +96,10 @@ export default function ProjectsPage() {
                   <Image 
                     src="/assets/images/tokydl.jpeg" 
                     alt="tokydl project" 
-                    width={300} 
-                    height={300}
+                    width={600} 
+                    height={400}
                     className="project-img"
+                    priority
                   />
                 </div>
                 <div className="project-details">
