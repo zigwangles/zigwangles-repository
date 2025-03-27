@@ -139,6 +139,19 @@ p {
   font-size: 0.9rem;
 }
 
+.btn-view-site {
+  background: var(--success-color);
+  color: white;
+  font-weight: 600;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-view-site:hover {
+  background-color: var(--accent-color);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
 .btn-outline {
   background: transparent;
   color: var(--text-color);
