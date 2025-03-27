@@ -1,5 +1,7 @@
 'use client';
 
+import Image from 'next/image';
+
 export default function ProjectsPage() {
   // Handle filter click on the client side
   const handleFilterClick = (filter: string) => {
@@ -66,7 +68,13 @@ export default function ProjectsPage() {
             <div className="project-item" data-category="team" id="aiio">
               <div className="project-card">
                 <div className="project-image">
-                  <i className="fas fa-users"></i>
+                  <Image 
+                    src="/assets/images/aiio.jpeg" 
+                    alt="aiio.dev project" 
+                    width={300} 
+                    height={300}
+                    className="project-img"
+                  />
                 </div>
                 <div className="project-details">
                   <h3>aiio.dev</h3>
@@ -84,7 +92,13 @@ export default function ProjectsPage() {
             <div className="project-item" data-category="script" id="tokydl">
               <div className="project-card">
                 <div className="project-image">
-                  <i className="fas fa-headphones"></i>
+                  <Image 
+                    src="/assets/images/tokydl.jpeg" 
+                    alt="tokydl project" 
+                    width={300} 
+                    height={300}
+                    className="project-img"
+                  />
                 </div>
                 <div className="project-details">
                   <h3>tokydl</h3>
@@ -110,3 +124,4 @@ export default function ProjectsPage() {
     </div>
   );
 }
+
