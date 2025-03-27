@@ -63,28 +63,6 @@ export default function ProjectsPage() {
       <section className="projects-grid-container">
         <div className="container">
           <div className="projects-grid">
-            <div className="project-item" data-category="web" id="pirating">
-              <div className="project-card">
-                <div className="project-image">
-                  <i className="fas fa-globe"></i>
-                </div>
-                <div className="project-details">
-                  <h3>pirating.xyz</h3>
-                  <p>Open source pirating website providing access to digital content.</p>
-                  <div className="tech-tags">
-                    <span className="tech-tag">HTML</span>
-                    <span className="tech-tag">JavaScript</span>
-                    <span className="tech-tag">CSS</span>
-                    <span className="tech-tag">Storj</span>
-                  </div>
-                  <div className="project-links">
-                    <a href="https://pirating.xyz" className="btn btn-small">View Site</a>
-                    <a href="https://github.com/yourusername/pirating.xyz" className="btn btn-outline">Source Code</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
             <div className="project-item" data-category="team" id="aiio">
               <div className="project-card">
                 <div className="project-image">
