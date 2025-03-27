@@ -14,9 +14,10 @@ export default function FeaturedProjects() {
               <Image 
                 src="/assets/images/aiio.jpeg" 
                 alt="aiio.dev project" 
-                width={300} 
-                height={300}
+                width={600} 
+                height={400}
                 className="project-img"
+                priority
               />
             </div>
             <h3>aiio.dev</h3>
@@ -30,9 +31,10 @@ export default function FeaturedProjects() {
               <Image 
                 src="/assets/images/tokydl.jpeg" 
                 alt="tokydl project" 
-                width={300} 
-                height={300}
+                width={600} 
+                height={400}
                 className="project-img"
+                priority
               />
             </div>
             <h3>tokydl</h3>
