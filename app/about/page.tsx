@@ -4,7 +4,7 @@ export default function AboutPage() {
       <section className="about-hero">
         <div className="container">
           <h1>About Me</h1>
-          <p className="lead">Get to know more about my journey and expertise</p>
+          <p className="lead">Hi there! I'm a 15-year-old student and coding enthusiast</p>
         </div>
       </section>
 
@@ -14,17 +14,16 @@ export default function AboutPage() {
             <div className="about-text">
               <h2>My Story</h2>
               <p>
-                Hello! I'm zigwangles, a passionate software developer with a keen interest in
-                building elegant and efficient solutions to complex problems.
+                Hello! I'm a passionate 15-year-old with a love for sailing, web development, and anime.
               </p>
               <p>
-                With over 5 years of experience in the industry, I've worked on a variety of
-                projects ranging from web applications to mobile apps and backend systems.
+                I've been diving into coding for a while now, focusing mainly on Python and web technologies.
+                When I'm not coding, you can find me on the water with my sailing club or contemplating my
+                next move in chess.
               </p>
               <p>
-                My journey in software development began when I built my first website at the
-                age of 16. Since then, I've been constantly learning and adapting to new
-                technologies and methodologies.
+                Currently, I'm challenging myself by learning Assembly (yes, I might be a bit of a masochist),
+                while continuing to build my skills in TypeScript and other web technologies.
               </p>
             </div>
             <div className="about-image">
@@ -42,30 +41,30 @@ export default function AboutPage() {
 
       <section className="timeline">
         <div className="container">
-          <h2>Experience</h2>
+          <h2>Activities & Interests</h2>
           <div className="timeline-container">
             <div className="timeline-item">
               <div className="timeline-dot"></div>
-              <div className="timeline-date">2022 - Present</div>
+              <div className="timeline-date">Current</div>
               <div className="timeline-content">
-                <h3>Senior Developer - Tech Innovations Inc.</h3>
-                <p>Leading development of cloud-based solutions and mentoring junior developers.</p>
+                <h3>Sailing Club</h3>
+                <p>Active member of the sailing club, improving my skills on the water.</p>
               </div>
             </div>
             <div className="timeline-item">
               <div className="timeline-dot"></div>
-              <div className="timeline-date">2019 - 2022</div>
+              <div className="timeline-date">Current</div>
               <div className="timeline-content">
-                <h3>Full Stack Developer - Digital Solutions LLC</h3>
-                <p>Developed and maintained web applications using modern JavaScript frameworks.</p>
+                <h3>Chess</h3>
+                <p>Enjoy strategic thinking and the mental challenge of chess.</p>
               </div>
             </div>
             <div className="timeline-item">
               <div className="timeline-dot"></div>
-              <div className="timeline-date">2017 - 2019</div>
+              <div className="timeline-date">Favorite Subjects</div>
               <div className="timeline-content">
-                <h3>Junior Developer - CodeCraft Studios</h3>
-                <p>Started my professional journey building responsive websites and applications.</p>
+                <h3>History & Math</h3>
+                <p>Most enjoy studying history and mathematics at school.</p>
               </div>
             </div>
           </div>
@@ -74,39 +73,40 @@ export default function AboutPage() {
       
       <section className="tech-stack">
         <div className="container">
-          <h2>Technologies I Use</h2>
+          <h2>My Tech Skills</h2>
           <div className="tech-grid">
             <div className="tech-category">
-              <h3>Frontend</h3>
+              <h3>High Level</h3>
               <ul>
-                <li>HTML & CSS</li>
-                <li>JavaScript</li>
-                <li>React</li>
-                <li>Next.js</li>
-                <li>Tailwind CSS</li>
-              </ul>
-            </div>
-            <div className="tech-category">
-              <h3>Backend</h3>
-              <ul>
-                <li>Node.js</li>
-                <li>Express</li>
                 <li>Python</li>
-                <li>Django</li>
-                <li>PostgreSQL</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
               </ul>
             </div>
             <div className="tech-category">
-              <h3>Tools</h3>
+              <h3>Medium Level</h3>
               <ul>
-                <li>Git</li>
-                <li>Docker</li>
-                <li>AWS</li>
-                <li>Figma</li>
-                <li>VS Code</li>
+                <li>TypeScript</li>
+                <li>Web Development</li>
+              </ul>
+            </div>
+            <div className="tech-category">
+              <h3>Learning</h3>
+              <ul>
+                <li>Assembly (to hate myself)</li>
+                <li>Advanced Web Frameworks</li>
               </ul>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section className="goals">
+        <div className="container">
+          <h2>Future Goals</h2>
+          <p>I'm passionate about building a development team and fostering a community of like-minded coders. 
+             My aim is to collaborate on meaningful projects and continue growing my technical skills.</p>
         </div>
       </section>
     </div>
