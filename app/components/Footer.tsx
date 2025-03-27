@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="footer-content">
           <div className="footer-logo">
             <h2>
-              <span className="highlight">Zig</span>Wangles
+              <span className="highlight">zig</span>wangles
             </h2>
             <p>Building the future, one line of code at a time.</p>
           </div>
@@ -27,7 +27,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="copyright">
-          <p>&copy; {new Date().getFullYear()} ZigWangles. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} zigwangles. All rights reserved.</p>
         </div>
       </div>
     </footer>
