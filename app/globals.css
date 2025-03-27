@@ -878,3 +878,49 @@ input:checked + .slider:before {
     width: 100%;
   }
 }
+
+.social-links-section {
+  padding: 3rem 0;
+}
+
+.social-links-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .social-links-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.social-link-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background-color: #1a1a1a;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #fff;
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.social-link-card:hover {
+  transform: translateY(-5px);
+  background-color: #252525;
+}
+
+.social-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.social-name {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
